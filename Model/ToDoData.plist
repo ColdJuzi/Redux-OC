@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>title</key>
+		<string>新建</string>
+		<key>state</key>
+		<integer>0</integer>
+		<key>create_time</key>
+		<string>1484120000</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>2</integer>
+		<key>title</key>
+		<string>进行中</string>
+		<key>state</key>
+		<integer>1</integer>
+		<key>create_time</key>
+		<string>1484120000</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>title</key>
+		<string>已完成</string>
+		<key>state</key>
+		<integer>2</integer>
+		<key>create_time</key>
+		<string>1484120000</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>4</integer>
+		<key>title</key>
+		<string>删除</string>
+		<key>state</key>
+		<integer>3</integer>
+		<key>create_time</key>
+		<string>1484120000</string>
+	</dict>
+</array>
+</plist>

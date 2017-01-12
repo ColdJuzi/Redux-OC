@@ -1,0 +1,3 @@
+github "jsonmodel/jsonmodel"
+github "SnapKit/Masonry"
+github "ReactiveCocoa/ReactiveObjC"

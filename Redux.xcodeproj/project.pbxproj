@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9BDE92C1E260BC3004E69AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE92B1E260BC3004E69AE /* main.m */; };
+		F9BDE92F1E260BC3004E69AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE92E1E260BC3004E69AE /* AppDelegate.m */; };
+		F9BDE9321E260BC3004E69AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9311E260BC3004E69AE /* ViewController.m */; };
+		F9BDE9351E260BC3004E69AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BDE9331E260BC3004E69AE /* Main.storyboard */; };
+		F9BDE9371E260BC3004E69AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BDE9361E260BC3004E69AE /* Assets.xcassets */; };
+		F9BDE93A1E260BC3004E69AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BDE9381E260BC3004E69AE /* LaunchScreen.storyboard */; };
+		F9BDE9521E2612CC004E69AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BDE9511E2612CC004E69AE /* Foundation.framework */; };
+		F9BDE9541E2612D0004E69AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BDE9531E2612D0004E69AE /* UIKit.framework */; };
+		F9BDE9561E2612D4004E69AE /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BDE9551E2612D4004E69AE /* ReactiveObjC.framework */; };
+		F9BDE9581E2612DA004E69AE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BDE9571E2612DA004E69AE /* Masonry.framework */; };
+		F9BDE95A1E2612DD004E69AE /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BDE9591E2612DD004E69AE /* JSONModel.framework */; };
+		F9BDE96D1E26134A004E69AE /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE96C1E26134A004E69AE /* Model.m */; };
+		F9BDE96E1E26134A004E69AE /* Model.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BDE96B1E26134A004E69AE /* Model.h */; };
+		F9BDE9741E261355004E69AE /* libModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BDE9691E26134A004E69AE /* libModel.a */; };
+		F9BDE9751E26136D004E69AE /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BDE9591E2612DD004E69AE /* JSONModel.framework */; };
+		F9BDE97E1E2615E9004E69AE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE97D1E2615E9004E69AE /* DetailViewController.m */; };
+		F9BDE9811E2615FC004E69AE /* TotalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9801E2615FC004E69AE /* TotalViewController.m */; };
+		F9BDE98C1E26183F004E69AE /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE98B1E26183F004E69AE /* Store.m */; };
+		F9BDE98F1E261848004E69AE /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE98E1E261848004E69AE /* State.m */; };
+		F9BDE9921E261850004E69AE /* Reducer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9911E261850004E69AE /* Reducer.m */; };
+		F9BDE9961E261859004E69AE /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9941E261859004E69AE /* Action.m */; };
+		F9BDE99C1E261A50004E69AE /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE99B1E261A50004E69AE /* NSDate+Utilities.m */; };
+		F9BDE99F1E261A63004E69AE /* JSONModel+Assign.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE99E1E261A63004E69AE /* JSONModel+Assign.m */; };
+		F9BDE9A41E261D3A004E69AE /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9A31E261D3A004E69AE /* ToDoItem.m */; };
+		F9BDE9A61E262051004E69AE /* ToDoData.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9BDE9A51E261E9F004E69AE /* ToDoData.plist */; };
+		F9BDE9AA1E2623C5004E69AE /* DetailTableVDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9A91E2623C5004E69AE /* DetailTableVDataSource.m */; };
+		F9BDE9AF1E262518004E69AE /* ToDoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9AE1E262518004E69AE /* ToDoViewModel.m */; };
+		F9BDE9B41E262F0C004E69AE /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9B31E262F0C004E69AE /* UIImage+Color.m */; };
+		F9BDE9B91E2630DF004E69AE /* UITableView+HiddenExcessLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9B81E2630DF004E69AE /* UITableView+HiddenExcessLine.m */; };
+		F9BDE9BC1E2630E8004E69AE /* UITableViewCell+CellLineLeftMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9BB1E2630E8004E69AE /* UITableViewCell+CellLineLeftMargin.m */; };
+		F9BDE9C11E263293004E69AE /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9C01E263293004E69AE /* DetailTableViewCell.m */; };
+		F9BDE9C91E265D63004E69AE /* ToDoTotalViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9C81E265D62004E69AE /* ToDoTotalViewModel.m */; };
+		F9BDE9CD1E265DA8004E69AE /* TotalTableVDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BDE9CC1E265DA8004E69AE /* TotalTableVDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9BDE9721E261352004E69AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BDE91F1E260BC3004E69AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BDE9681E26134A004E69AE;
+			remoteInfo = Model;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9BDE9671E26134A004E69AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F9BDE96E1E26134A004E69AE /* Model.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F9BDE9271E260BC3004E69AE /* Redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BDE92B1E260BC3004E69AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9BDE92D1E260BC3004E69AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9BDE92E1E260BC3004E69AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9BDE9301E260BC3004E69AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9BDE9311E260BC3004E69AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9BDE9341E260BC3004E69AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BDE9361E260BC3004E69AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9BDE9391E260BC3004E69AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9BDE93B1E260BC3004E69AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BDE9511E2612CC004E69AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9BDE9531E2612D0004E69AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9BDE9551E2612D4004E69AE /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = Carthage/Build/iOS/ReactiveObjC.framework; sourceTree = "<group>"; };
+		F9BDE9571E2612DA004E69AE /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+		F9BDE9591E2612DD004E69AE /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONModel.framework; path = Carthage/Build/iOS/JSONModel.framework; sourceTree = "<group>"; };
+		F9BDE9691E26134A004E69AE /* libModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BDE96B1E26134A004E69AE /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		F9BDE96C1E26134A004E69AE /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		F9BDE97C1E2615E9004E69AE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Detail/DetailViewController.h; sourceTree = "<group>"; };
+		F9BDE97D1E2615E9004E69AE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Detail/DetailViewController.m; sourceTree = "<group>"; };
+		F9BDE97F1E2615FC004E69AE /* TotalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TotalViewController.h; path = Total/TotalViewController.h; sourceTree = "<group>"; };
+		F9BDE9801E2615FC004E69AE /* TotalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TotalViewController.m; path = Total/TotalViewController.m; sourceTree = "<group>"; };
+		F9BDE9821E261630004E69AE /* Redux.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Redux.pch; sourceTree = "<group>"; };
+		F9BDE9841E261789004E69AE /* Model.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.pch; sourceTree = "<group>"; };
+		F9BDE9851E261818004E69AE /* ReduxOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReduxOC.h; path = "Redux-OC/ReduxOC.h"; sourceTree = "<group>"; };
+		F9BDE98A1E26183F004E69AE /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Store.h; path = "Redux-OC/Store/Store.h"; sourceTree = "<group>"; };
+		F9BDE98B1E26183F004E69AE /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Store.m; path = "Redux-OC/Store/Store.m"; sourceTree = "<group>"; };
+		F9BDE98D1E261848004E69AE /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = State.h; path = "Redux-OC/State/State.h"; sourceTree = "<group>"; };
+		F9BDE98E1E261848004E69AE /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = State.m; path = "Redux-OC/State/State.m"; sourceTree = "<group>"; };
+		F9BDE9901E261850004E69AE /* Reducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reducer.h; path = "Redux-OC/Reducer/Reducer.h"; sourceTree = "<group>"; };
+		F9BDE9911E261850004E69AE /* Reducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reducer.m; path = "Redux-OC/Reducer/Reducer.m"; sourceTree = "<group>"; };
+		F9BDE9931E261859004E69AE /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Action.h; path = "Redux-OC/Action/Action.h"; sourceTree = "<group>"; };
+		F9BDE9941E261859004E69AE /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Action.m; path = "Redux-OC/Action/Action.m"; sourceTree = "<group>"; };
+		F9BDE9951E261859004E69AE /* ActioneType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActioneType.h; path = "Redux-OC/Action/ActioneType.h"; sourceTree = "<group>"; };
+		F9BDE99A1E261A50004E69AE /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utilities.h"; path = "Category/NSDate/NSDate+Utilities.h"; sourceTree = "<group>"; };
+		F9BDE99B1E261A50004E69AE /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utilities.m"; path = "Category/NSDate/NSDate+Utilities.m"; sourceTree = "<group>"; };
+		F9BDE99D1E261A63004E69AE /* JSONModel+Assign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSONModel+Assign.h"; path = "Category/JSONModel/JSONModel+Assign.h"; sourceTree = "<group>"; };
+		F9BDE99E1E261A63004E69AE /* JSONModel+Assign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+Assign.m"; path = "Category/JSONModel/JSONModel+Assign.m"; sourceTree = "<group>"; };
+		F9BDE9A21E261D3A004E69AE /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToDoItem.h; path = Module/ToDo/ToDoItem.h; sourceTree = "<group>"; };
+		F9BDE9A31E261D3A004E69AE /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoItem.m; path = Module/ToDo/ToDoItem.m; sourceTree = "<group>"; };
+		F9BDE9A51E261E9F004E69AE /* ToDoData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToDoData.plist; sourceTree = "<group>"; };
+		F9BDE9A81E2623C5004E69AE /* DetailTableVDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailTableVDataSource.h; path = Detail/DataSource/DetailTableVDataSource.h; sourceTree = "<group>"; };
+		F9BDE9A91E2623C5004E69AE /* DetailTableVDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailTableVDataSource.m; path = Detail/DataSource/DetailTableVDataSource.m; sourceTree = "<group>"; };
+		F9BDE9AD1E262518004E69AE /* ToDoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToDoViewModel.h; path = ViewModel/ToDo/ToDoViewModel.h; sourceTree = "<group>"; };
+		F9BDE9AE1E262518004E69AE /* ToDoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoViewModel.m; path = ViewModel/ToDo/ToDoViewModel.m; sourceTree = "<group>"; };
+		F9BDE9B21E262F0C004E69AE /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Color.h"; path = "Category/UIImage/UIImage+Color.h"; sourceTree = "<group>"; };
+		F9BDE9B31E262F0C004E69AE /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Color.m"; path = "Category/UIImage/UIImage+Color.m"; sourceTree = "<group>"; };
+		F9BDE9B71E2630DF004E69AE /* UITableView+HiddenExcessLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+HiddenExcessLine.h"; path = "Category/UITableView/UITableView+HiddenExcessLine.h"; sourceTree = "<group>"; };
+		F9BDE9B81E2630DF004E69AE /* UITableView+HiddenExcessLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+HiddenExcessLine.m"; path = "Category/UITableView/UITableView+HiddenExcessLine.m"; sourceTree = "<group>"; };
+		F9BDE9BA1E2630E8004E69AE /* UITableViewCell+CellLineLeftMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+CellLineLeftMargin.h"; path = "Category/UItableViewCell/UITableViewCell+CellLineLeftMargin.h"; sourceTree = "<group>"; };
+		F9BDE9BB1E2630E8004E69AE /* UITableViewCell+CellLineLeftMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+CellLineLeftMargin.m"; path = "Category/UItableViewCell/UITableViewCell+CellLineLeftMargin.m"; sourceTree = "<group>"; };
+		F9BDE9BF1E263293004E69AE /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailTableViewCell.h; path = Detail/View/UITableViewCell/DetailTableViewCell.h; sourceTree = "<group>"; };
+		F9BDE9C01E263293004E69AE /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailTableViewCell.m; path = Detail/View/UITableViewCell/DetailTableViewCell.m; sourceTree = "<group>"; };
+		F9BDE9C21E2632DE004E69AE /* ToDoState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ToDoState.h; path = Module/ToDo/ToDoState.h; sourceTree = "<group>"; };
+		F9BDE9C71E265D62004E69AE /* ToDoTotalViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToDoTotalViewModel.h; path = ViewModel/ToDo/ToDoTotalViewModel.h; sourceTree = "<group>"; };
+		F9BDE9C81E265D62004E69AE /* ToDoTotalViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoTotalViewModel.m; path = ViewModel/ToDo/ToDoTotalViewModel.m; sourceTree = "<group>"; };
+		F9BDE9CB1E265DA8004E69AE /* TotalTableVDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TotalTableVDataSource.h; path = Total/DataSource/TotalTableVDataSource.h; sourceTree = "<group>"; };
+		F9BDE9CC1E265DA8004E69AE /* TotalTableVDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TotalTableVDataSource.m; path = Total/DataSource/TotalTableVDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9BDE9241E260BC3004E69AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BDE9741E261355004E69AE /* libModel.a in Frameworks */,
+				F9BDE95A1E2612DD004E69AE /* JSONModel.framework in Frameworks */,
+				F9BDE9581E2612DA004E69AE /* Masonry.framework in Frameworks */,
+				F9BDE9561E2612D4004E69AE /* ReactiveObjC.framework in Frameworks */,
+				F9BDE9541E2612D0004E69AE /* UIKit.framework in Frameworks */,
+				F9BDE9521E2612CC004E69AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BDE9661E26134A004E69AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BDE9751E26136D004E69AE /* JSONModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9BDE91E1E260BC3004E69AE = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9291E260BC3004E69AE /* Redux */,
+				F9BDE96A1E26134A004E69AE /* Model */,
+				F9BDE9281E260BC3004E69AE /* Products */,
+				F9BDE9501E2612CB004E69AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9BDE9281E260BC3004E69AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9271E260BC3004E69AE /* Redux.app */,
+				F9BDE9691E26134A004E69AE /* libModel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9BDE9291E260BC3004E69AE /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE92D1E260BC3004E69AE /* AppDelegate.h */,
+				F9BDE92E1E260BC3004E69AE /* AppDelegate.m */,
+				F9BDE9791E2615BC004E69AE /* Main */,
+				F9BDE97A1E2615C7004E69AE /* Detail */,
+				F9BDE97B1E2615CF004E69AE /* Total */,
+				F9BDE9B01E262EDC004E69AE /* Category */,
+				F9BDE9781E26159F004E69AE /* Std */,
+				F9BDE9771E261595004E69AE /* Resource */,
+				F9BDE93B1E260BC3004E69AE /* Info.plist */,
+				F9BDE92A1E260BC3004E69AE /* Supporting Files */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		F9BDE92A1E260BC3004E69AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE92B1E260BC3004E69AE /* main.m */,
+				F9BDE9821E261630004E69AE /* Redux.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BDE9501E2612CB004E69AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9591E2612DD004E69AE /* JSONModel.framework */,
+				F9BDE9571E2612DA004E69AE /* Masonry.framework */,
+				F9BDE9551E2612D4004E69AE /* ReactiveObjC.framework */,
+				F9BDE9531E2612D0004E69AE /* UIKit.framework */,
+				F9BDE9511E2612CC004E69AE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9BDE96A1E26134A004E69AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE96B1E26134A004E69AE /* Model.h */,
+				F9BDE96C1E26134A004E69AE /* Model.m */,
+				F9BDE9841E261789004E69AE /* Model.pch */,
+				F9BDE9A51E261E9F004E69AE /* ToDoData.plist */,
+				F9BDE9A01E261D0B004E69AE /* Module */,
+				F9BDE9AB1E2624F5004E69AE /* ViewModel */,
+				F9BDE9831E26175A004E69AE /* Redux-OC */,
+				F9BDE9971E261A33004E69AE /* Category */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9BDE9771E261595004E69AE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9361E260BC3004E69AE /* Assets.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		F9BDE9781E26159F004E69AE /* Std */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9331E260BC3004E69AE /* Main.storyboard */,
+				F9BDE9381E260BC3004E69AE /* LaunchScreen.storyboard */,
+			);
+			name = Std;
+			sourceTree = "<group>";
+		};
+		F9BDE9791E2615BC004E69AE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9301E260BC3004E69AE /* ViewController.h */,
+				F9BDE9311E260BC3004E69AE /* ViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F9BDE97A1E2615C7004E69AE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE97C1E2615E9004E69AE /* DetailViewController.h */,
+				F9BDE97D1E2615E9004E69AE /* DetailViewController.m */,
+				F9BDE9A71E262387004E69AE /* DataSource */,
+				F9BDE9BD1E26326A004E69AE /* View */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		F9BDE97B1E2615CF004E69AE /* Total */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE97F1E2615FC004E69AE /* TotalViewController.h */,
+				F9BDE9801E2615FC004E69AE /* TotalViewController.m */,
+				F9BDE9CA1E265D7D004E69AE /* DataSource */,
+			);
+			name = Total;
+			sourceTree = "<group>";
+		};
+		F9BDE9831E26175A004E69AE /* Redux-OC */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9851E261818004E69AE /* ReduxOC.h */,
+				F9BDE9891E261835004E69AE /* Store */,
+				F9BDE9881E261830004E69AE /* State */,
+				F9BDE9871E261828004E69AE /* Reducer */,
+				F9BDE9861E261821004E69AE /* Action */,
+			);
+			name = "Redux-OC";
+			sourceTree = "<group>";
+		};
+		F9BDE9861E261821004E69AE /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9931E261859004E69AE /* Action.h */,
+				F9BDE9941E261859004E69AE /* Action.m */,
+				F9BDE9951E261859004E69AE /* ActioneType.h */,
+			);
+			name = Action;
+			sourceTree = "<group>";
+		};
+		F9BDE9871E261828004E69AE /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9901E261850004E69AE /* Reducer.h */,
+				F9BDE9911E261850004E69AE /* Reducer.m */,
+			);
+			name = Reducer;
+			sourceTree = "<group>";
+		};
+		F9BDE9881E261830004E69AE /* State */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE98D1E261848004E69AE /* State.h */,
+				F9BDE98E1E261848004E69AE /* State.m */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+		F9BDE9891E261835004E69AE /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE98A1E26183F004E69AE /* Store.h */,
+				F9BDE98B1E26183F004E69AE /* Store.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		F9BDE9971E261A33004E69AE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9991E261A41004E69AE /* NSDate */,
+				F9BDE9981E261A3B004E69AE /* JSONModel */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		F9BDE9981E261A3B004E69AE /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE99D1E261A63004E69AE /* JSONModel+Assign.h */,
+				F9BDE99E1E261A63004E69AE /* JSONModel+Assign.m */,
+			);
+			name = JSONModel;
+			sourceTree = "<group>";
+		};
+		F9BDE9991E261A41004E69AE /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE99A1E261A50004E69AE /* NSDate+Utilities.h */,
+				F9BDE99B1E261A50004E69AE /* NSDate+Utilities.m */,
+			);
+			name = NSDate;
+			sourceTree = "<group>";
+		};
+		F9BDE9A01E261D0B004E69AE /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9A11E261D10004E69AE /* ToDo */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		F9BDE9A11E261D10004E69AE /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9A21E261D3A004E69AE /* ToDoItem.h */,
+				F9BDE9A31E261D3A004E69AE /* ToDoItem.m */,
+				F9BDE9C21E2632DE004E69AE /* ToDoState.h */,
+			);
+			name = ToDo;
+			sourceTree = "<group>";
+		};
+		F9BDE9A71E262387004E69AE /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9A81E2623C5004E69AE /* DetailTableVDataSource.h */,
+				F9BDE9A91E2623C5004E69AE /* DetailTableVDataSource.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		F9BDE9AB1E2624F5004E69AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9AC1E2624FE004E69AE /* ToDo */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		F9BDE9AC1E2624FE004E69AE /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9AD1E262518004E69AE /* ToDoViewModel.h */,
+				F9BDE9AE1E262518004E69AE /* ToDoViewModel.m */,
+				F9BDE9C71E265D62004E69AE /* ToDoTotalViewModel.h */,
+				F9BDE9C81E265D62004E69AE /* ToDoTotalViewModel.m */,
+			);
+			name = ToDo;
+			sourceTree = "<group>";
+		};
+		F9BDE9B01E262EDC004E69AE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9B61E2630D4004E69AE /* UITableView */,
+				F9BDE9B51E2630CC004E69AE /* UITableViewCell */,
+				F9BDE9B11E262EE8004E69AE /* UIImage */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		F9BDE9B11E262EE8004E69AE /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9B21E262F0C004E69AE /* UIImage+Color.h */,
+				F9BDE9B31E262F0C004E69AE /* UIImage+Color.m */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
+		F9BDE9B51E2630CC004E69AE /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9BA1E2630E8004E69AE /* UITableViewCell+CellLineLeftMargin.h */,
+				F9BDE9BB1E2630E8004E69AE /* UITableViewCell+CellLineLeftMargin.m */,
+			);
+			name = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		F9BDE9B61E2630D4004E69AE /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9B71E2630DF004E69AE /* UITableView+HiddenExcessLine.h */,
+				F9BDE9B81E2630DF004E69AE /* UITableView+HiddenExcessLine.m */,
+			);
+			name = UITableView;
+			sourceTree = "<group>";
+		};
+		F9BDE9BD1E26326A004E69AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9BE1E263272004E69AE /* UITableViewCell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F9BDE9BE1E263272004E69AE /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9BF1E263293004E69AE /* DetailTableViewCell.h */,
+				F9BDE9C01E263293004E69AE /* DetailTableViewCell.m */,
+			);
+			name = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		F9BDE9CA1E265D7D004E69AE /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDE9CB1E265DA8004E69AE /* TotalTableVDataSource.h */,
+				F9BDE9CC1E265DA8004E69AE /* TotalTableVDataSource.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9BDE9261E260BC3004E69AE /* Redux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BDE93E1E260BC3004E69AE /* Build configuration list for PBXNativeTarget "Redux" */;
+			buildPhases = (
+				F9BDE9231E260BC3004E69AE /* Sources */,
+				F9BDE9241E260BC3004E69AE /* Frameworks */,
+				F9BDE9251E260BC3004E69AE /* Resources */,
+				F9BDE9761E2613B4004E69AE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BDE9731E261352004E69AE /* PBXTargetDependency */,
+			);
+			name = Redux;
+			productName = Redux;
+			productReference = F9BDE9271E260BC3004E69AE /* Redux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BDE9681E26134A004E69AE /* Model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BDE96F1E26134A004E69AE /* Build configuration list for PBXNativeTarget "Model" */;
+			buildPhases = (
+				F9BDE9651E26134A004E69AE /* Sources */,
+				F9BDE9661E26134A004E69AE /* Frameworks */,
+				F9BDE9671E26134A004E69AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Model;
+			productName = Model;
+			productReference = F9BDE9691E26134A004E69AE /* libModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9BDE91F1E260BC3004E69AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PhantomSmart;
+				TargetAttributes = {
+					F9BDE9261E260BC3004E69AE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = NGVEL2N8G3;
+						ProvisioningStyle = Automatic;
+					};
+					F9BDE9681E26134A004E69AE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = NGVEL2N8G3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9BDE9221E260BC3004E69AE /* Build configuration list for PBXProject "Redux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9BDE91E1E260BC3004E69AE;
+			productRefGroup = F9BDE9281E260BC3004E69AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9BDE9261E260BC3004E69AE /* Redux */,
+				F9BDE9681E26134A004E69AE /* Model */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9BDE9251E260BC3004E69AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BDE9A61E262051004E69AE /* ToDoData.plist in Resources */,
+				F9BDE93A1E260BC3004E69AE /* LaunchScreen.storyboard in Resources */,
+				F9BDE9371E260BC3004E69AE /* Assets.xcassets in Resources */,
+				F9BDE9351E260BC3004E69AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9BDE9761E2613B4004E69AE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Masonry.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveObjC.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/JSONModel.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9BDE9231E260BC3004E69AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BDE9CD1E265DA8004E69AE /* TotalTableVDataSource.m in Sources */,
+				F9BDE9BC1E2630E8004E69AE /* UITableViewCell+CellLineLeftMargin.m in Sources */,
+				F9BDE9811E2615FC004E69AE /* TotalViewController.m in Sources */,
+				F9BDE9321E260BC3004E69AE /* ViewController.m in Sources */,
+				F9BDE9B41E262F0C004E69AE /* UIImage+Color.m in Sources */,
+				F9BDE92F1E260BC3004E69AE /* AppDelegate.m in Sources */,
+				F9BDE9B91E2630DF004E69AE /* UITableView+HiddenExcessLine.m in Sources */,
+				F9BDE9C11E263293004E69AE /* DetailTableViewCell.m in Sources */,
+				F9BDE9AA1E2623C5004E69AE /* DetailTableVDataSource.m in Sources */,
+				F9BDE92C1E260BC3004E69AE /* main.m in Sources */,
+				F9BDE97E1E2615E9004E69AE /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BDE9651E26134A004E69AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BDE98F1E261848004E69AE /* State.m in Sources */,
+				F9BDE99F1E261A63004E69AE /* JSONModel+Assign.m in Sources */,
+				F9BDE9A41E261D3A004E69AE /* ToDoItem.m in Sources */,
+				F9BDE9C91E265D63004E69AE /* ToDoTotalViewModel.m in Sources */,
+				F9BDE9AF1E262518004E69AE /* ToDoViewModel.m in Sources */,
+				F9BDE99C1E261A50004E69AE /* NSDate+Utilities.m in Sources */,
+				F9BDE96D1E26134A004E69AE /* Model.m in Sources */,
+				F9BDE9961E261859004E69AE /* Action.m in Sources */,
+				F9BDE9921E261850004E69AE /* Reducer.m in Sources */,
+				F9BDE98C1E26183F004E69AE /* Store.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9BDE9731E261352004E69AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BDE9681E26134A004E69AE /* Model */;
+			targetProxy = F9BDE9721E261352004E69AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9BDE9331E260BC3004E69AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BDE9341E260BC3004E69AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9BDE9381E260BC3004E69AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BDE9391E260BC3004E69AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9BDE93C1E260BC3004E69AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9BDE93D1E260BC3004E69AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9BDE93F1E260BC3004E69AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NGVEL2N8G3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREFIX_HEADER = Redux/Redux.pch;
+				INFOPLIST_FILE = Redux/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = Phantom.Redux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9BDE9401E260BC3004E69AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NGVEL2N8G3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREFIX_HEADER = Redux/Redux.pch;
+				INFOPLIST_FILE = Redux/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = Phantom.Redux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9BDE9701E26134A004E69AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NGVEL2N8G3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREFIX_HEADER = Model/Model.pch;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F9BDE9711E26134A004E69AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NGVEL2N8G3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREFIX_HEADER = Model/Model.pch;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9BDE9221E260BC3004E69AE /* Build configuration list for PBXProject "Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BDE93C1E260BC3004E69AE /* Debug */,
+				F9BDE93D1E260BC3004E69AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BDE93E1E260BC3004E69AE /* Build configuration list for PBXNativeTarget "Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BDE93F1E260BC3004E69AE /* Debug */,
+				F9BDE9401E260BC3004E69AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BDE96F1E26134A004E69AE /* Build configuration list for PBXNativeTarget "Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BDE9701E26134A004E69AE /* Debug */,
+				F9BDE9711E26134A004E69AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9BDE91F1E260BC3004E69AE /* Project object */;
+}

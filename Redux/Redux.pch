@@ -1,0 +1,19 @@
+//
+//  Redux.pch
+//  Redux
+//
+//  Created by LiangHao on 11/01/2017.
+//  Copyright © 2017 PhantomSmart. All rights reserved.
+//
+
+#ifndef Redux_pch
+#define Redux_pch
+
+@import Masonry;
+@import ReactiveObjC;
+
+#import "ReduxOC.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Redux_pch */
