@@ -44,7 +44,6 @@ xcuserdata/
 #hidden package and node_module with node.
 package.json
 node_modules
-Carthage
 
 fastlane/report.xml
 fastlane/screenshots
